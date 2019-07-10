@@ -1,0 +1,90 @@
+﻿# banner
+banner:
+  title : "Hi! I’m <br> Caleb Fahlgren<br>"
+  socialLinks:
+    - icon : "ti-linkedin"
+      URL : "https://www.linkedin.com/in/caleb-fahlgren-8a8ba0170" 
+ 
+    - icon : "ti-github"
+      URL : "https://www.github.com/cfahlgren1"      
+
+# about
+about:
+  enable : true
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# skill
+skill:
+  enable : true
+  skillbar:
+      
+    - title : "Security"
+      progress : "75%"
+      color : "#bdecf6"
+
+    - title : "Django"
+      progress : "60%"
+      color : "#fdb157"
+      
+    - title : "Git/Github"
+      progress : "60%"
+      color : "#9473e6"
+      
+    - title : "Soft Skills"
+      progress : "85%"
+      color : "#ffbcaa"
+
+    - title : "COMPTIA A+"
+      progress : "85%"
+      color : "#FF7575"
+
+    - title : COMPTIA Security+
+      progress : "80%"
+      color : "#00DFFF"
+
+    - title : "Java"
+      progress : "60%"
+      color : "#FF8066"
+
+    - title : Data Structures
+      progress : "70%"
+      color : "#008E9B"
+
+
+# experience
+experience:
+  enable : true
+  item:       
+    - logo : "images/experience/icon-2.png"
+      title : "Computer Repair Technician"
+      company : "Compute-This!"
+      duration : "Aug 2016 - Mar 2018"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Cyber Security Analyst"
+      company : "Auburn University"
+      duration : "April 2019 - Present"
+
+# education
+education:
+  enable : true
+  item:
+    - title : "Bachelors in Wireless Engineering"
+      year : "2018-Present"
+      academy : "Auburn University"
+
+    - title : "Digital Forensics Certificate"
+      year : "2017-Present"
+      academy : "Florida State College at Jacksonville"
+      
+
+# portfolio
+portfolio:
+  enable : true
+  item:
+    - image : "images/portfolio/item-1.png"
+      projectURL : "https://github.com/cfahlgren1/FTCApps/tree/master/FTCSummary"
+      
+    - image : "images/portfolio/item-2.png"
+      projectURL : "https://github.com/cfahlgren1/AuburnStudentScanner"
+
